@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="city" placeholder="Enter City">
+    <div id="data" style="display: none;">
+        <br>
+        <h2 id="cityName"></h2>
+        <img src="" alt="weather icon" id="weatherIcon">
+        <br>
+        <span>Temp:</span>
+        <span id="temp"></span>
+        <br>
+        <span>Wind Speed</span>
+        <span id="windSpeed"></span>
+        <br>
+        <span>Weather Type</span>
+        <span id="weatherType"></span>
+    </div>
+    <button id="btn" onclick="getWeather()"> Get Weather Details</button>
+    <script src="script.js"></script>
+</body>
+</html>

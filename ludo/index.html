@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+	<!-- Main outer box of game -->
+    <div class="outerShell">
+		<!-- First boxes row -->
+      <div class="boxRow">
+		<!-- red box -->
+        <div class="RedBox">
+			<!-- Circles of red box -->
+          <div class="RedBoxCircle" id="circle"></div>
+          <div class="RedBoxCircle" id="circle"></div>
+          <div class="RedBoxCircle" id="circle"></div>
+          <div class="RedBoxCircle" id="circle"></div>
+        </div>
+		<!-- Vertical Row -->
+        <div id="VerticalRow">
+			
+          <div class="VerticalRow">
+			<!-- Green box unsafe -->
+            <div class="VerticalBox"></div>
+            <div class="VerticalBox"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- Green Box winning line entry -->
+            <div class="VerticalBox" id="greenLine"></div>
+			<!-- Green Box Home Start line -->
+            <div class="VerticalBox"  id="greenLine">
+            </div>
+          </div>
+          <div class="VerticalRow">
+			<!-- Green Box ka Last safe -->
+            <div class="VerticalBox" id="greenLine">
+            </div>
+			<!-- Green Box ka win entry ka second block -->
+            <div class="VerticalBox" id="greenLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- Green Box ki win entry ka third box -->
+            <div class="VerticalBox" id="greenLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- Green Box ki win entry ka fourth box -->
+            <div class="VerticalBox" id="greenLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- Green Box ki win entry ka fifth box -->
+            <div class="VerticalBox" id="greenLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+        </div>
+		<!-- Green Box Circle -->
+        <div class="GreenBox">
+          <div class="GreenBoxCircle" id="circle"></div>
+          <div class="GreenBoxCircle" id="circle"></div>
+          <div class="GreenBoxCircle" id="circle"></div>
+          <div class="GreenBoxCircle" id="circle"></div>
+        </div>
+      </div>
+	  <!-- Middle Area-->
+      <div class="middleRow">
+		<!-- Middle Row -->
+        <div id="HorizontalRow">
+          <div class="HorizontalRow">
+			<!-- Red unsafe box horizontal row top -->
+            <div class="HorizontalBox"></div>
+			<!-- Red box starting safe -->
+            <div class="HorizontalBox" id="redLine"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+          </div>
+          <div class="HorizontalRow">
+            <div class="HorizontalBox"></div>
+			<!-- Red Box Win entry first box -->
+            <div class="HorizontalBox" id="redLine" ></div>
+			<!-- Red Box Win entry Second box -->
+            <div class="HorizontalBox" id="redLine"></div>
+			<!-- Red Box Win entry Third box -->
+            <div class="HorizontalBox" id="redLine"></div>
+			<!-- Red Box Win entry Fourth box -->
+            <div class="HorizontalBox" id="redLine"></div>
+			<!-- Red Box Win entry Fifth box -->
+            <div class="HorizontalBox" id="redLine"></div>
+          </div>
+		  <!-- Red horizontal box bottom (unsafe) -->
+          <div class="HorizontalRow">
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+			<!-- Red Box Last Safe -->
+            <div class="HorizontalBox" id="redLine"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+          </div>
+        </div>
+		<!-- Ludo Win Area -->
+        <div class="CenterTriangles"></div>     <!-- ceter triangle area -->
+		<!-- Yellow line horizontal box top (unsafe)-->
+        <div id="HorizontalRow">
+          <div class="HorizontalRow">
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+			<!-- Yellow Box Last Safe -->
+            <div class="HorizontalBox" id="yellowLine">
+            </div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+          </div>
+          <div class="HorizontalRow">
+			<!-- Yellow Box Win entry Fifth box -->
+            <div class="HorizontalBox" id="yellowLine"></div>
+			<!-- Yellow Box Win entry Fouth box -->
+            <div class="HorizontalBox" id="yellowLine"></div>
+			<!-- Third -->
+            <div class="HorizontalBox" id="yellowLine"></div>
+			<!-- second -->
+            <div class="HorizontalBox" id="yellowLine"></div>
+			<!-- first -->
+            <div class="HorizontalBox" id="yellowLine"></div>
+            <div class="HorizontalBox"></div>
+          </div>
+		  <!-- Yellow line horizontal box bottom (unsafe)-->
+          <div class="HorizontalRow">
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+            <div class="HorizontalBox"></div>
+			<!-- Yellow box home safe starting -->
+            <div class="HorizontalBox" id="yellowLine">
+            </div>
+            <div class="HorizontalBox"></div>
+          </div>
+        </div>
+      </div>
+      <div class="boxRow">
+		<!-- Blue Box Circles -->
+        <div class="BlueBox">
+          <div class="BlueBoxCircle" id="circle"></div>
+          <div class="BlueBoxCircle" id="circle"></div>
+          <div class="BlueBoxCircle" id="circle"></div>
+          <div class="BlueBoxCircle" id="circle"></div>
+        </div>
+        <div id="VerticalRow">
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- Blue Box Win entry Fifth box -->
+            <div class="VerticalBox" id="blueLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- Fouth -->
+            <div class="VerticalBox" id="blueLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- third -->
+            <div class="VerticalBox" id="blueLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+			<!-- second -->
+            <div class="VerticalBox" id="blueLine"></div>
+			<!-- Blue box last safe  -->
+            <div class="VerticalBox" id="blueLine"></div>
+          </div>
+          <div class="VerticalRow">
+			<!-- Blue box home starting safe -->
+            <div class="VerticalBox" id="blueLine"></div>
+			<!-- Blue Box Win entry first box -->
+            <div class="VerticalBox" id="blueLine"></div>
+            <div class="VerticalBox"></div>
+          </div>
+		  <!-- blue win entry unsafe box -->
+          <div class="VerticalRow">
+            <div class="VerticalBox"></div>
+            <div class="VerticalBox"></div>
+            <div class="VerticalBox"></div>
+          </div>
+        </div>
+		<!-- Yellow Box Circles -->
+        <div class="YellowBox">
+          <div class="YellowBoxCircle" id="circle"></div>
+          <div class="YellowBoxCircle" id="circle"></div>
+          <div class="YellowBoxCircle" id="circle"></div>
+          <div class="YellowBoxCircle" id="circle"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

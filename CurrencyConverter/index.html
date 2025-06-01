@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="mainbox">
+        <div class="container" id="heading">
+            <h2 id="headText">Currency Converter</h2>
+        </div>
+        <div id="flags">
+            <div class="container" id="flag1">
+                <div id="flagImg1">
+                    <img src="" alt="" id="flagimg1" style="height: 150px; width: 200px;">
+                </div>
+                <div id="flagDropDown1">
+                    <select name="" id="country1" style="background-color: antiquewhite; width: 150px;">
+                        <option value="" id="" style="background-color: aliceblue;">--Select--</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="container" id="flag2">
+                <div id="flagImg1">
+                    <img src="" alt="" id="flagimg2" style="height: 150px; width: 200px;">
+                </div>
+                <div id="flagDropDown1">
+                    <select name="" id="country2" style="background-color: antiquewhite; width: 150px;">
+                        <option value="" id="">--Select--</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div id="converter">
+            <input type="text" placeholder="Enter Amount" id="orgAmount">
+        </div>
+
+        <div class="converter">
+            <button id="convertbtn" onclick="Convert()">CONVERT</button>
+        </div>
+        <div class="convertedAmount">
+            <span id="sampleTxt">Converted Amount: <span id="convertedTxt"></span></span>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

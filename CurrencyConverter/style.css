@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aqua; */
+}
+#mainbox{
+    background-color: aqua;
+    padding-bottom: 100%;
+}
+#heading{
+    background-color: yellow;
+    padding: 10px;
+}
+#headText{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    background-color: yellow;
+}
+#flags
+{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+#flagImg1, #flagImg2{
+    margin: 20px 40px;
+}
+#flagDropDown1, #flagDropDown2{
+    margin-left: 70px;
+    border-radius: 0.1em;
+}
+select{
+    padding: 2px 30px;
+}
+#converter{
+    padding: 10px 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    padding: 10px 30px;
+    align-items: center;
+    background-color: white;
+}
+#convertbtn{
+    margin-left: 43%;
+    margin-top: 20px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px 30px;
+    border-radius: 0.4em;
+    font-size: x-large;
+}
+#convertbtn:hover{
+    background-color: blue;
+}
+#convertbtn:active{
+    background-color: blueviolet;
+}
+#sampleTxt{
+    font-size:x-large;
+    /* margin-left: 43%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 100px;
+}
