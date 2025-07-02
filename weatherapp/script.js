@@ -1,4 +1,4 @@
-const API_KEY = "..env".API_KEY;
+const API_KEY = "Your API Key Here"; // Replace with your OpenWeatherMap API key
 async function getWeather() {
     const city = document.getElementById("city").value.trim();
     document.getElementById("data").style.display = "none";
